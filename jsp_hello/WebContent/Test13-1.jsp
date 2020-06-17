@@ -12,10 +12,11 @@ border:1px solid #dddddd;
 padding:5px;
 margin:5px;
 text-align:center;
+
 }
-#com{
+#con{
 width:800px;
-margin: o auto;
+margin: 0 auto;
 overflow:hidden;
 }
 #header{
@@ -26,8 +27,9 @@ line-height:100px;
 #nav {
 width:780px;
 height:100px;
-overflow:hidden;
+
 }
+#nav ul{overflow:hidden;}
 #nav ul li{
 width:138px;
 height:40px;
@@ -42,9 +44,10 @@ width:780px;
 overflow:hidden;
 }
 #content{
+width:600px;
 height:300px;
 float:left;
-width:600px;
+
 }
 #banner{
 width:135px;
@@ -53,18 +56,19 @@ float:left;
 }
 #footer{
 width:780px;
-height:300px;
+height:100px;
 line-height:100px;
 }
-
 </style>
 </head>
 <body>
+<div id="con">
 <div id="header">
-<h1>HEADER</h1>
+HEADER
 </div>
+
 <div id="nav">
-<h1>NAVIGATION</h1>
+<p>NAVIGATION</p>
 <ul>
 <li> menu1</li>
 <li> menu2</li>
@@ -73,15 +77,17 @@ line-height:100px;
 <li> menu5</li>
 </ul>
 </div>
+<div id="wrap">
 <div id="content">
-<h1>CONTENT</h1>
+<p>CONTENT</p>
 </div>
 <div id="banner">
-<h1>BANNER</h1>
+<p>BANNER</p>
+</div>
 </div>
 <div id="footer">
-<h1>FOOTER</h1>
+FOOTER
 </div>
-
+</div>
 </body>
 </html>
